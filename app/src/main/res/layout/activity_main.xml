@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nickname_edit"
+    style="@style/NameStyle"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingStart="@dimen/padding"
+    android:paddingEnd="@dimen/padding"
+    android:textAlignment="center">
 
     <TextView
         android:id="@+id/name_text"
@@ -11,6 +16,15 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
         android:textAlignment="center" />
 
     <ImageView
@@ -32,8 +46,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:lineSpacingMultiplier="1.2"
-            android:paddingStart="@dimen/padding"
-            android:paddingEnd="@dimen/padding"
             android:text="@string/bio" />
     </ScrollView>
 </LinearLayout>
