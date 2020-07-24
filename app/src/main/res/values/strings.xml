@@ -1,4 +1,12 @@
 <resources>
     <string name="app_name">About Me</string>
     <string name="name">Rishit</string>
+    <string name="yellow_star">Yellow star</string>
+    <string name="bio">Hi, My Name is Rishit.
+    \n\nStudent Driven student with exceptional communication and analytical skills
+     \n\nEffectively articulates ideas with poise and confidence to engage prospective students.
+        \nStrong knowledge of campus activities, clubs and culture. ,Enthusiast towards Artificial
+        \n\nIntelligence with mixture of Full stack ,
+        \n\nWorked on travel management system in C prototype, E- commerce Website All available on github
+    </string>
 </resources>
