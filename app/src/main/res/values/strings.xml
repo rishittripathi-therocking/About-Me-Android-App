@@ -12,4 +12,7 @@
     \nFaithless To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment
     \nYou may not control all the events that happen to you, but you can decide not to be reduced by them
     </string>
+    <string name="what_is_your_nickname">what is you nickname?</string>
+    <string name="done">Done</string>
+    <string name="nickname">nickname</string>
 </resources>
